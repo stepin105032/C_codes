@@ -4,7 +4,9 @@
 int main()
 {
 	int count=0,i,j=0,k=0,jmax;
-	char name[1000]="sai_kumar_reddy", ind[1000][1000];
+	char name[1000], ind[1000][1000];
+	printf("enter :");
+	scanf("%s",name);
 	
 	
 	
