@@ -25,8 +25,8 @@ int main()
 	}
 	
 	for(k=0;k<=count;k++)
-	for(i=0;i<=strlen(ind[k]);i++)
+	{for(i=0;i<=strlen(ind[k]);i++)
 	printf("%c",ind[k][i]);
-	
+	printf("\n");}
 	return 0;
 }
